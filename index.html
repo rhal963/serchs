@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>بحث عن صورة في Google و Yandex</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            direction: rtl;
+        }
+        input[type="file"] {
+            margin: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>ارفع صورة وابحث عنها</h2>
+    <input type="file" id="imageInput" accept="image/*"><br>
+    <button onclick="searchGoogle()">🔍 بحث في Google</button>
+    <button onclick="searchYandex()">🔎 بحث في Yandex</button>
+
+    <script>
+        function searchGoogle() {
+            window.open("https://images.google.com/", "_blank");
+            alert("تم فتح Google Images. الرجاء سحب الصورة إلى مربع البحث.");
+        }
+
+        function searchYandex() {
+            window.open("https://yandex.com/images/", "_blank");
+            alert("تم فتح Yandex Images. الرجاء سحب الصورة إلى مربع البحث.");
+        }
+    </script>
+</body>
+</html>
