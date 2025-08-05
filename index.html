@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أدوات البحث OSINT</title>
+  <style>
+    body {
+      background-color: #0b1e25;
+      color: white;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background-color: #12333d;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #9be2ff;
+    }
+    .card p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    .btn {
+      background-color: #2ca8cc;
+      border: none;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin: 5px 0;
+    }
+    .btn:hover {
+      background-color: #1b8aa7;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h3>🔍 البحث على تيليجرام</h3>
+    <p>ابحث في المحتوى العام المنشور على تيليجرام، أو استعمل بعض البوتات المتخصصة للوصول إلى بيانات مهمة.</p>
+    <a class="btn" href="https://t.me/JsonDumpBot" target="_blank">SearchBot</a>
+    <a class="btn" href="https://t.me/truecallerbot" target="_blank">Truecaller</a>
+    <a class="btn" href="https://t.me/FunStatsBot" target="_blank">FunStat</a>
+    <a class="btn" href="https://www.telegram-analytics.com" target="_blank">Telemetry</a>
+    <a class="btn" href="https://telegago.com" target="_blank">Telegago</a>
+    <a class="btn" href="https://telegaa.com" target="_blank">Telegaa</a>
+    <a class="btn" href="https://tgstat.com" target="_blank">TgStat</a>
+  </div>
+
+  <div class="card">
+    <h3>📛 اسم المستخدم</h3>
+    <p>ابحث عن اسم المستخدم على كل مواقع الإنترنت تقريبًا.</p>
+    <input type="text" placeholder="أدخل اسم المستخدم">
+    <a class="btn" href="https://whatsmyname.app" target="_blank">البحث</a>
+  </div>
+
+  <div class="card">
+    <h3>🎯 ابحث عن تغريدات تويتر في مكان</h3>
+    <p>استخدم هذا البحث للوصول لتغريدات حسب الموقع الجغرافي.</p>
+    <input type="text" placeholder="كلمة مفتاحية + موقع">
+    <a class="btn" href="https://twitter.com/search-advanced" target="_blank">بحث متقدم</a>
+  </div>
+
+  <div class="card">
+    <h3>🕵️‍♂️ ابحث عبر وسوم التتبع</h3>
+    <p>ابحث عن مواقع أخرى مرتبطة بموقع ويب من خلال وسوم Google Analytics وغيرها.</p>
+    <input type="text" placeholder="أدخل الدومين">
+    <a class="btn" href="https://dnslytics.com" target="_blank">DNSlytics</a>
+  </div>
+
+  <div class="card">
+    <h3>🕰️ استعد نسخة تاريخية</h3>
+    <p>أدخل رابط صفحة لترى النسخ المؤرشفة السابقة منها إن وجدت.</p>
+    <input type="text" placeholder="رابط الصفحة">
+    <a class="btn" href="https://web.archive.org" target="_blank">أرشيف الإنترنت</a>
+  </div>
+
+  <div class="card">
+    <h3>⚖️ العقوبات وأسماء المرادفات</h3>
+    <p>ابحث عن كلمات ومصطلحات بلغة أخرى مترجمة من صفحات العقوبات الدولية.</p>
+    <input type="text" placeholder="الاسم أو الكلمة">
+    <a class="btn" href="https://sanctionssearch.ofac.treas.gov" target="_blank">OFAC</a>
+  </div>
+
+  <div class="card">
+    <h3>🖼️ البحث عن الصور</h3>
+    <p>ابحث بالصور لمعرفة مصدرها أو ظهورها في أماكن أخرى.</p>
+    <a class="btn" href="https://images.google.com" target="_blank">Google Images</a>
+    <a class="btn" href="https://yandex.com/images/" target="_blank">Yandex</a>
+    <a class="btn" href="https://tineye.com" target="_blank">TinEye</a>
+  </div>
+
+</body>
+</html>
